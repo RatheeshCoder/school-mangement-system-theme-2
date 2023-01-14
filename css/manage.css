@@ -1,0 +1,35 @@
+/*table*/
+.main{
+	display: grid;
+	justify-content: center;
+	padding: 30px;
+}
+.main table{
+	margin: auto;
+    font-weight: bold;
+}
+.main table caption{
+	text-align: left;
+    margin-bottom: 5px;
+    font-size: 160%;
+    padding: 5px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.main table, th, tr, td {
+    text-align: left;
+    border-collapse: collapse;
+    table-layout: fixed;
+    padding: 8px 30px;
+    width: 80%;
+    border: 1px solid black;
+}
+
+.main th{
+	color: red;
+}
+
+/*th, td {
+    border-bottom: 1px solid #ddd;
+}
+*/
